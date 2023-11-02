@@ -150,13 +150,132 @@
 // var t = (age <= 3) ? 'малыш' : 'ребенок';
 // console.log(t);
 
-let b = confirm('Введете ваше имя?' )
-// alert('Твоя фамилия:' + `${b}`)
-if(b===true){
-   let a = prompt("введите ваше имя",'Например Коля' )
-alert('Твоу имя: '+`${a}`)
-console.log(a)
-a+='K'
-console.log(a)
-} else {alert('Пока!'), console.log('Пока')}
+// let b = confirm('Введете ваше имя?' )
+// // alert('Твоя фамилия:' + `${b}`)
+// if(b===true){
+//    let a = prompt("введите ваше имя",'Например Коля' )
+// alert('Твое имя: '+`${a}`)
+// console.log(a)
+// a+='K'
+// console.log(a)
+// } else {alert('Пока!'), console.log('Пока')}
 
+
+// var age=1;
+// do {
+//   console.log( 'Мне ' + age + ' лет' );
+//   age++;
+// } while ( age<30 );
+// console.log('Всё, я большой!');
+// let a = 1;
+// while(a<30){
+
+//    console.log(a)
+//    a++
+// }
+// for ( var age=1; age<30; age++ )
+//   console.log( 'Мне ' + age + ' лет' );
+// console.log('Всё, я большой!');
+// try {
+//    console.log('до ошибки');
+//    var a=bbbbb;
+//    console.log('после ошибки');
+//  }
+//  catch ( ex ) {
+//    console.error('возникло исключение!');
+//    console.error('тип исключения: '+ex.name);
+//    console.error('текст исключения: '+ex.message);
+//  }
+//  try {
+//    console.log('до генерации исключения');
+//    throw { name:'MyError', message:'что-то пошло не так!' };
+//    console.log('после генерации исключения');
+//  }
+//  catch ( ex ) {
+//    console.error('возникло исключение!');
+//    console.error('тип исключения: '+ex.name);
+//    console.error('текст исключения: '+ex.message);
+//  }
+
+//Предописанный класс Object
+// let h = {a:3, b:8, c:9};
+// console.log(Object.keys(h));
+// console.log(Object.keys(h));
+
+/*Разработка веб-приложений на JavaScript	49	Учебное пособие (версия 17)
+Программа Front-end Developer	Алексей Локтев
+(B.30) */
+// console.log(Math.abs(-5.7))
+// let a=-1, b=4.9, c=-9; v=9;
+// console.log(Math.max(a, b, c));
+// console.log(Math.min(a, b, c));
+// console.log(Math.round(b));
+// console.log(Math.ceil(b));
+// console.log(Math.floor(b));
+// console.log(Math.sqrt(v));
+// console.log(Math.pow(v, 2));
+// console.log(Math.random());
+// console.log(Math.PI);
+
+
+// function roundMod(n,m){
+// console.log(Math.round(n/m)*m)
+// }
+// roundMod(7.8, 10)
+
+// function randomDiap(n,m){
+//    console.log(Math.floor(
+//       Math.random()*(m-n+1)+n
+//    ))
+// }
+
+// randomDiap(1, 100);
+
+// console.log(Number.NaN)
+// console.log((4.84561).toFixed(4))
+// console.log( (5.1234567).toFixed() );
+
+// console.log('ljkdfl lsdfsdf sfsdljj '.length)
+// console.log('Alex'.charAt(3))
+// console.log("Olga"[0])
+// console.log('Roma'.charCodeAt(1))
+// var s='Утром деньги, вечером стулья!';
+// console.log( s.charCodeAt(2) );
+// console.log(s.substr(1, 3))
+// console.log(s.slice(4, 8))
+// console.log(s.split(' '))
+
+// function twoSort(s) {
+//    let b = [];
+//    s.sort().forEach((v, i, a) => b.push(v[0] + "***"));
+//    console.log(b.join(''));
+// }
+// twoSort(["bitcoin", "take", "over", "the", "world", "maybe", "who", "knows", "perhaps"]);
+// twoSort(["turns", "out", "random", "test", "cases", "are", "easier", "than", "writing", "out", "basic", "ones"]);
+
+
+
+// function twoSort(s) {
+//    console.log(s.sort()[0].split('').join('***'));
+// }
+// twoSort(["bitcoin", "take", "over", "the", "world", "maybe", "who", "knows", "perhaps"]);
+// twoSort(["turns", "out", "random", "test", "cases", "are", "easier", "than", "writing", "out", "basic", "ones"]);
+
+
+let arr = [];
+
+console.log(arr.length===0)
+
+
+// function sumArray(arr){
+//    function fra(r,v,i,a) {
+//      return r+v; }
+//    if(arr.length===0){
+//      return(0)
+//    }else{
+//      return (arr.reduce(fra, 0))
+//    }
+//  }
+//  sumArray([1,2,3,4])
+//  sumArray([])
+//  sumArray([397, 403, 764, 142])
